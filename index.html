@@ -8,8 +8,6 @@
     </head>
     
     <body class="editBtns">
-
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -18,13 +16,11 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand" href="#">Photo Editor</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><input type="file" id="load_file" class="" /></span></a>
-                    </li>
-                    
+                   <span> <input type="file" name="" value="" placeholder=""> </span>
                 </ul>
-                <a class="navbar-text" href="#" id="restorebtn"><img src="assets/icons/refresh-button.svg" width="20px" alt="">Reset</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;<button id="downloadbtn" class="btn btn-success float-right">Download</button>
+                <button type="button" class="btn btn-default" style="margin-right: 10px;">Reset <span class="glyphicon glyphicon-refresh" aria-hidden="true"></button> 
+                <button class="btn btn-success">Download <span class="glyphicon glyphicon-save" aria-hidden="true"></span> </button>
+
             </div>
         </nav>
         <div class="row" style="margin-right:0;height:calc(100% - 62px)">

@@ -3,6 +3,7 @@ html,body{
   padding: 0;
   background-color: #dde6e9;
   height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-light{
   background-color: #fff !important;
@@ -71,4 +72,12 @@ html,body{
     border-radius: 3px;
     margin: 2px 0;
     padding: 5px 10px;
+  }
+  button:hover{
+  cursor: pointer;
+  }
+
+  .btn-default{
+    background-color: transparent;
+    color: gray;
   }
